@@ -1,0 +1,25 @@
+{
+  "name": "interview-mirror",
+  "version": "1.0.0",
+  "description": "An app for mock interviewing with AI supported features like real time body language based tips and easy conversation with virtual AI bot similar to real life interview experience",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Chaithanya Sai Bommavaram",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.12.1",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
