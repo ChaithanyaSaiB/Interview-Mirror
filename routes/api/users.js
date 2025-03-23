@@ -7,9 +7,6 @@ const passport = require("passport");
 // Load User model
 const User = require("../../models/User");
 
-// Load keys from config
-const keys = require("../../config/keys");
-
 // @route   /api/users/test
 // @desc    Test users route
 // @access  Public
@@ -65,7 +62,7 @@ router.post("/login", (req, res) => {
         // Sign token
         jwt.sign(
           payload,
-          keys.secretOrKey,
+          process.env.secretOrKey,
           { expiresIn: 3600 },
           (err, token) => {
             res.json({
