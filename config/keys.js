@@ -1,4 +1,5 @@
 module.exports = {
   mongoURI:
-    "mongodb+srv://chaithanyasaibommavaram:cmZ1ZbhFfwxL6IQs@personalprojects.v5w7a.mongodb.net/",
+    "mongodb+srv://bchaithanyasai:SyfjgvbWCuhyyfOs@personalprojects.v5w7a.mongodb.net/",
+  secretOrKey: "secret",
 };
